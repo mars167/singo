@@ -7,7 +7,7 @@ import (
 	"github.com/jinzhu/gorm"
 
 	//
-	_ "github.com/jinzhu/gorm/dialects/mysql"
+	_ "github.com/jinzhu/gorm/dialects/postgres"
 )
 
 // DB 数据库链接单例
@@ -15,7 +15,7 @@ var DB *gorm.DB
 
 // Database 在中间件中初始化mysql链接
 func Database(connString string) {
-	db, err := gorm.Open("mysql", connString)
+	db, err := gorm.Open("postgres", connString)
 	db.LogMode(true)
 	// Error
 	if err != nil {

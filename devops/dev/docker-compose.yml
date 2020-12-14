@@ -1,0 +1,48 @@
+version: '3.7'
+services:
+
+  #postgres
+  task_brife_postgres:
+    image: postgres:11.5
+    container_name: task_brife_postgres
+    env_file:
+      - env/postgres.env
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./data/db:/var/lib/postgresql/data:cached
+    command: postgres -c 'shared_buffers=256MB' -c 'max_connections=1000'
+    tty: true
+    networks:
+      - task_brife-dev-bridge
+
+  # redis
+  task_brife_redis:
+    image: redis:5.0.6-alpine
+    container_name: task_brife_redis
+    volumes:
+      - ./data/redis/data:/data:cached
+      - ./data/redis/etc:/usr/local/etc/redis
+    ports:
+      - '6379:6379'
+    tty: true
+    networks:
+      - task_brife-dev-bridge
+#
+#  # RabbitMQ
+#  rabbitmq:
+#    image: rabbitmq:3.8.0-management
+#    container_name: task_brife_rabbitmq
+#    env_file:
+#      - env/global.env
+#      - env/rabbitmq.env
+#    volumes:
+#      - ../../data/rabbitmq:/var/lib/rabbitmq
+#    ports:
+#      - '5672:5672'
+#      - '15672:15672'
+#    networks:
+#      - task_brife-dev-bridge
+networks:
+  task_brife-dev-bridge:
+    driver: bridge
