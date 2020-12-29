@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f56c8b3-65a1-4c61-b7cb-de4f2c222f5d" name="Default Changelist" comment="init service" />
+    <list default="true" id="7f56c8b3-65a1-4c61-b7cb-de4f2c222f5d" name="Default Changelist" comment="create brief">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/abd61976-cf23-4a4e-8952-5a8705694f80.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/abd61976-cf23-4a4e-8952-5a8705694f80.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/abd61976-cf23-4a4e-8952-5a8705694f80/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/abd61976-cf23-4a4e-8952-5a8705694f80/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/abd61976-cf23-4a4e-8952-5a8705694f80/storage_v2/_src_/database/task_brief_service_dev.DJ9KbA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/abd61976-cf23-4a4e-8952-5a8705694f80/storage_v2/_src_/database/task_brief_service_dev.DJ9KbA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/abd61976-cf23-4a4e-8952-5a8705694f80/storage_v2/_src_/database/task_brief_service_dev.DJ9KbA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/abd61976-cf23-4a4e-8952-5a8705694f80/storage_v2/_src_/database/task_brief_service_dev.DJ9KbA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/brief.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/brief.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/task_brief.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/task_brief.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serializer/task_brief.go" beforeDir="false" afterPath="$PROJECT_DIR$/serializer/task_brief.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/task_brief_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/task_brief_service.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +194,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init service" />
-    <option name="LAST_COMMIT_MESSAGE" value="init service" />
+    <MESSAGE value="create brief" />
+    <option name="LAST_COMMIT_MESSAGE" value="create brief" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -209,10 +222,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="574" y="182" width="468" height="535" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607851939596" />
-    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1607860766948">
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1609171432580">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1607860766948" />
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1609171432580" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1607851956740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

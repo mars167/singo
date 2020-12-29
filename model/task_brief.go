@@ -9,6 +9,7 @@ type TaskBrief struct {
 	gorm.Model
 	TenantUuid     string
 	TaskPeriodId   uint
+	TaskId         uint
 	Title          string
 	UserId         uint
 	DepartmentId   uint

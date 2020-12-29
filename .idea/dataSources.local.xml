@@ -14,8 +14,12 @@
             <node kind="database" qname="@">
               <node kind="schema" qname="@" />
             </node>
-            <node kind="database" qname="task_brief_service_dev">
+            <node kind="database" qname="postgres">
               <node kind="schema" qname="public" />
+            </node>
+            <node kind="database" qname="root" />
+            <node kind="database" qname="task_brief_service_dev">
+              <node kind="schema" negative="1" />
             </node>
           </node>
         </introspection-scope>

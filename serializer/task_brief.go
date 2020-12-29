@@ -9,6 +9,7 @@ type TaskBrief struct {
 	TenantUuid     string `json:"tenant_uuid"`
 	TaskPeriodId   uint   `json:"task_period_id"`
 	UserId         uint   `json:"user_id"`
+	TaskId         uint   `json:"task_id"`
 	Title          string `json:"title"`
 	CreatedAt      int64  `json:"created_at"`
 	DepartmentId   uint   `json:"department_id"`
@@ -24,6 +25,7 @@ func BuildTaskBrief(brief model.TaskBrief) TaskBrief {
 		UserId:         brief.UserId,
 		TenantUuid:     brief.TenantUuid,
 		TaskPeriodId:   brief.TaskPeriodId,
+		TaskId:         brief.TaskId,
 		DepartmentId:   brief.DepartmentId,
 		ProcessContent: brief.ProcessContent,
 		IssueContent:   brief.IssueContent,
