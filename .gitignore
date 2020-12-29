@@ -1,5 +1,6 @@
 .vscode/
 .env
+.idea
 go.sum
 devops/dev/data/db
 devops/dev/data/redis/data
